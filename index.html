@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Lexend:wght@500&family=Ubuntu&display=swap');
         .main {
@@ -33,6 +34,7 @@
             background-color: #7189da;
             font-size: 2EM;
             font-weight: 500;
+            font-family: 'Lexend', sans-serif;
         }
         .description_command_about {
             padding: 10px;
@@ -116,6 +118,72 @@
             display: block;
         }
         */
+        .header_mobile{
+            display: none;
+            width: 100%;
+        }
+        .header_mobile_image{
+            width: 100%;
+            padding-top: 40px;
+        }
+        .header_mobile_image img{
+            width: 80%;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            border-radius: 15px;
+        }
+        .header_mobile_name{
+            font-size: 2.5EM;
+            font-family: 'Lexend', sans-serif;
+            padding: 20px;
+            text-align: center;
+        }
+        .header_mobile_description{
+            color: white;
+            font-size: 1EM;
+            font-family: 'Ubuntu', sans-serif;
+            padding: 5px;
+            padding-bottom: 80px;
+            padding-top: 10px;
+            line-height: 200%;
+        }
+        .header_mobile_buttons{
+            padding: 10px;
+            padding-bottom: 50px;
+        }
+        .header_mobile_buttons button{
+            width: 100%;
+            border: 2px solid #668cff;
+            background-color: transparent;
+            color: #668cff;
+            font-size: 1.8EM;
+            text-decoration: none;
+            padding: 0px;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            border-radius: 5px;
+        }
+        .header_mobile_buttons button:hover{
+            background-color: #668cff;
+            color: white;
+        }
+        @media only screen and (max-width: 900px) {
+            .header_desktop{
+                display: none;
+            }
+            .header_mobile{
+                display: block;
+            }
+        }
+        @media only screen and (min-width: 901px) {
+            .header_desktop{
+                display: block;
+            }
+            .header_mobile{
+                display: none;
+            }
+        }
     </style>
 </head>
 <body>
@@ -138,19 +206,31 @@
                     </tr>
                     <tr>
                         <td class="header_desktop_table_buttons">
-                            <button class="header_desktop_table_buttons_invite">Invite Me</button>
+                            <button class="header_desktop_table_buttons_invite" onclick="window.location.href = 'https://discord.com/api/oauth2/authorize?client_id=748160981766635540&permissions=3425761345&scope=bot%20applications.commands';">Invite Me</button>
                             <button class="header_desktop_table_buttons_support">Support Server</button>
                         </td>
                     </tr>
                 </table>
             </div>
-            <!--
-            <div class="header_cover">
-                <img class="header_cover_image" src="https://i.imgur.com/yXiPhv8.png">
+            <div class="mobile">
+            <div class="header_mobile">
+                <div class="header_mobile_image">
+                    <img src="https://i.imgur.com/yXiPhv8.png">
+                </div>
+                <div class="header_mobile_name">
+                    Plubin
+                </div>
+                <div class="header_mobile_description">
+                    A multi purpose bot with anime manga (comic) waifus emotions moderations lyrics dictionary memes pets and image generation feature
+                </div>
+                <div class="header_mobile_buttons">
+                    <button onclick="window.location.href = 'https://discord.com/api/oauth2/authorize?client_id=748160981766635540&permissions=3425761345&scope=bot%20applications.commands';">Invite Me</button>
+                        <br>
+                        <br>
+                    <button onclick="window.location.href = 'https://link here';">Support Server</button>
+                </div>
             </div>
-            <div class="header_buttons">
             </div>
-            -->
         </div>
         <a href="./nsfw" class="description">
             <div class="description_command background_coral_red_light">
