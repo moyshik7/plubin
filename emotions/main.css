@@ -1,6 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 * {
     box-sizing: border-box;
+    -webkit-user-select: none;       
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
 }
 body {
     background-color: #6b5b95;
