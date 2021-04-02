@@ -53,12 +53,75 @@
         .background_coral_red_light {
             background-color: #ffa299;
         }
+        .header{
+            width:100%;
+        }
+        .header_desktop{
+            display: block;
+        }
+        .header_desktop_table{
+            width: 100%;
+        }
+        .header_desktop_table_cover{
+            width: 40%;
+        }
+        .header_desktop_table_cover_image{
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            width: 50%;
+            max-width: 400px;
+        }
+        .header_desktop_table_buttons{
+            width: 100%;
+        }
+        .header_desktop_table_buttons button{
+            width: 48%;
+            border: 0px solid red;
+            background-color: #668cff;
+            padding: 10px;
+            font-size: 1.8EM;
+            color: white;
+        }
+        /*
+        .header_cover{
+            width: 40%;
+            height: auto;
+        }
+        .header_buttons{
+            display: block;
+        }
+        */
     </style>
 </head>
 <body>
     <div class="main">
         <div class="header">
-            <img src="https://i.imgur.com/yXiPhv8.png" class="header_image">
+            <div class="header_desktop">
+                <table class="header_desktop_table">
+                    <tr>
+                        <td class="header_desktop_table_cover" rowspan="2">
+                            <img class="header_desktop_table_cover_image" src="https://i.imgur.com/yXiPhv8.png">
+                        </td>
+                        <td class="header_desktop_table_name">
+                            Plubin
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="header_desktop_table_buttons">
+                            <button class="header_desktop_table_buttons_invite">Invite Me</button>
+                            <button class="header_desktop_table_buttons_support">Support Server</button>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <!--
+            <div class="header_cover">
+                <img class="header_cover_image" src="https://i.imgur.com/yXiPhv8.png">
+            </div>
+            <div class="header_buttons">
+            </div>
+            -->
         </div>
         <a href="./nsfw" class="description">
             <div class="description_command background_coral_red_light">
