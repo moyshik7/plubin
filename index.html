@@ -1,195 +1,148 @@
+<!DOCTYPE html>
 <html>
 <head>
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap" rel="stylesheet">
     <style>
-        .des-mini {
-            background-color: #ff6f61;
-            padding: 10px;
-            border-radius: 10px;
-            border: 2px solid #ff8a80;
-            font-size: 20px;
-        }
-        .command-holder {
+        .main {
+            background-color: #23272a;
             width: 100%;
-        }
-        .command-title {
-            width: 100%;
-            background-color: #4a67cf;
-            padding: 10px;
-            font-size: 25px;
-            border-top-left-radius: 5px;
-            border-top-right-radius: 5px;
-            font-weight: 600;
-            color: #bfbfbf;
-            transition-duration: 0.5s;
-        }
-        .command-title:hover {
+            position: absolute;
+            left: 0px;
+            top: 0px;
+            right: 0px;
             color: white;
-            background-color: #7289da;
         }
-        .command-des {
+        .header {
             width: 100%;
-            background-color: #aebaea;
+        }
+        .description {
             padding: 10px;
-            font-size: 18px;
-            border-bottom-left-radius: 5px;
-            border-bottom-right-radius: 5px;
-            color: black;
-            line-height: 1.9;
+            display: block;
+            text-decoration: none;
+            color: white;
         }
-        b {
-            padding: 1px;
-            padding-left: 5px;
-            padding-right: 5px;
+        .description_command {
+            /*padding: 10px;*/
+            background-color: #9aabe5;
             border-radius: 5px;
-            background-color: black;
+            line-height: 200%;
+        }
+        .description_command_title {
+            padding: 10px;
+            border-radius: 5px;
+            background-color: #7189da;
+            font-size: 2EM;
+            font-weight: 500;
+        }
+        .description_command_about {
+            padding: 10px;
+            font-size: 1.4EM;
+            color: #faf2eb;
+        }
+        code {
             color: red;
-            text-decoration: none;
-            font-weight: 100;
-            font-family: monospace;
-        }
-        .button {
-            width: 49%;
-            border: 2px solid #9d90bb;
-            color: #9d90bb;
+            background-color: #2c2f33;
+            padding: 3px;
+            padding-left: 8px;
+            padding-right: 8px;
             border-radius: 5px;
-            font-size: 20px;
-            background-color: #9d90bb;
-            color: black;
-            font-family: 'Montserrat', sans-serif;
-            text-decoration: none;
-            padding: 5px;
-            font-weight: 800;
+            font-family: Monospace;
         }
-        .button:hover {
-            background-color: rgba(0, 0, 0, 0);
-            color: #9d90bb;
+        .background_coral_red {
+            background-color: #ff6f61;
         }
-        .entity-header__name {
-            color: #c7c0d8;
-        }
-@media only screen and (max-width: 800px) {
-            .button {
-                width: 100%;
-            }
+        .background_coral_red_light {
+            background-color: #ffa299;
         }
     </style>
 </head>
 <body>
-    <a href="https://discord.com/oauth2/authorize?client_id=748160981766635540&scope=bot&permissions=51200" class="button">Invite Bot</a>
-    <a href="https://discord.gg/UDZqY4xJ6J" class="button">Support server</a>
-    <br>
-    <br><br><br>
-    <br>
-    <div class="des-mini">
-        A general purpose discord bot with commands all across Anime, Manga / comics, Dictionary, Lyrics, Moderation, Image generation, Emotions and and a total of 130 + commands with the best price ever (free)
+    <div class="main">
+        <!--
+                        <div class="header">
+                            <h1>Plubin</h1>
+                        </div>
+                -->
+        <div id="nsfw"></div>
+        <a href="#nsfw" class="description">
+            <div class="description_command background_coral_red_light">
+                <div class="description_command_title background_coral_red">
+                    NSFW / Porn
+                </div>
+                <div class="description_command_about">
+                    <code>anal</code> <code>blowjob</code> <code>bj</code> <code>boob</code> <code>boobs</code> <code>butt</code> <code>butts</code> <code>hardcore</code> <code>milf</code> <code>milfs</code> <code>mom</code> <code>moms</code> <code>pussy</code> <code>thick</code> <code>tits</code> <code>bdsm</code> <code>neko</code> <code>catgirl</code> <code>classic</code> <code>cumslut</code> <code>cs</code> <code>dickgirl</code> <code>dickgirls</code> <code>feet</code> <code>femdom</code> <code>glass</code> <code>glasses</code> <code>heel</code> <code>heels</code> <code>holo</code> <code>longhair</code> <code>long</code> <code>oil</code> <code>orgasm</code> <code>gasm</code> <code>pawg</code> <code>redhead</code> <code>red</code> <code>shorthair</code> <code>short</code> <code>spank</code> <code>tan</code> <code>tentacle</code> <code>tentacles</code> <code>tiny</code> <code>trap</code> <code>yaoi</code> <code>yuri</code> <code>asian</code> <code>asians</code> <code>bbc</code> <code>black</code> <code>blonde</code> <code>ebony</code> <code>filipino</code> <code>indian</code> <code>japanese</code> <code>korean</code> <code>celebrity</code> <code>erotic</code> <code>ero</code> <code>hentai</code> <code>kuni</code> <code>lewd</code> <code>chrismas</code> <code>xmas</code> <code>halloween</code> <code>hal</code>
+                </div>
+            </div>
+        </a>
+        <a href="#" class="description">
+            <div class="description_command">
+                <div class="description_command_title">
+                    Anime
+                </div>
+                <div class="description_command_about">
+                    <code>anime</code> <code>waifu</code>
+                </div>
+            </div>
+        </a>
+        <a href="#" class="description">
+            <div class="description_command">
+                <div class="description_command_title">
+                    Memes
+                </div>
+                <div class="description_command_about">
+                    <code>meme</code> <code>dank</code>
+                </div>
+            </div>
+        </a>
+        <a href="#" class="description">
+            <div class="description_command">
+                <div class="description_command_title">
+                    Emotions
+                </div>
+                <div class="description_command_about">
+                    <code>baka</code> <code>cuddle</code> <code>feed</code> <code>hug</code> <code>kiss</code> <code>pat</code> <code>poke</code> <code>smug</code> <code>tickle</code>
+                </div>
+            </div>
+        </a>
+        <a href="#" class="description">
+            <div class="description_command">
+                <div class="description_command_title">
+                    Search
+                </div>
+                <div class="description_command_about">
+                    <code>anime</code> <code>comic</code> <code>define</code> <code>lyrics</code> <code>manga</code>
+                </div>
+            </div>
+        </a>
+        <a href="#" class="description">
+            <div class="description_command">
+                <div class="description_command_title">
+                    Pets
+                </div>
+                <div class="description_command_about">
+                    <code>cat</code> <code>dog</code> <code>goose</code> <code>fox</code> <code>kitty</code> <code>meow</code> <code>lizard</code> <code>puppy</code>
+                </div>
+            </div>
+        </a>
+        <a href="#" class="description">
+            <div class="description_command">
+                <div class="description_command_title">
+                    Moderation
+                </div>
+                <div class="description_command_about">
+                    <code>kick</code> <code>ban</code>
+                </div>
+            </div>
+        </a>
+        <a href="#" class="description">
+            <div class="description_command">
+                <div class="description_command_title">
+                    Maintenance
+                </div>
+                <div class="description_command_about">
+                    <code>avatar</code> <code>emojis</code> <code>help</code> <code>invite</code> <code>ping</code> <code>server</code>
+                </div>
+            </div>
+        </a>
     </div>
-    <br>
-    <br>
-    <p>
-        Use `.help` to get started
-    </p>
-    <br>
-    <p>
-        Note: Plubin contains NSFW commands.But **NSFW content will not be provided in any SFW channel** No matter what.
-    </p>
-    <br>
-    <br>
-    <div class="command-holder">
-        <div class="command-title">
-            Anime
-        </div>
-        <div class="command-des">
-            <b>anime</b> <b>waifu</b>
-        </div>
-    </div>
-    <br><br>
-    <div class="command-holder">
-        <div class="command-title">
-            Memes
-        </div>
-        <div class="command-des">
-            <b>meme</b> <b>dank</b>
-        </div>
-    </div>
-    <br><br>
-    <div class="command-holder">
-        <div class="command-title">
-            Manga
-        </div>
-        <div class="command-des">
-            <b>manga</b> / <b>comic</b>
-        </div>
-    </div>
-    <br><br>
-    <div class="command-holder">
-        <div class="command-title">
-            Moderation
-        </div>
-        <div class="command-des">
-            <b>kick</b>  <b>ban</b>
-        </div>
-    </div>
-    <br><br>
-    <div class="command-holder">
-        <div class="command-title">
-            Emotions
-        </div>
-        <div class="command-des">
-            <b>baka</b>  <b>cuddle</b>  <b>feed</b>  <b>hug</b>  <b>kiss</b>  <b>pat</b>  <b>poke</b>  <b>smug</b>  <b>tickle</b>
-        </div>
-    </div>
-    <br><br>
-    <div class="command-holder">
-        <div class="command-title">
-            Images
-        </div>
-        <div class="command-des">
-            <b>catgirl</b> / <b>neko</b>  <b>foxgirl</b>  <b>waifu</b>  <b>wallpaper</b> / <b>wp</b>  <b>woof</b>
-        </div>
-    </div>
-    <br><br>
-    <div class="command-holder">
-        <div class="command-title">
-            Fun
-        </div>
-        <div class="command-des">
-            <b>pp</b>  <b>peanus</b>  <b>gay</b>
-        </div>
-    </div>
-    <br><br>
-    <div class="command-holder">
-        <div class="command-title">
-            Maintenance
-        </div>
-        <div class="command-des">
-            <b>avatar</b>  <b>emojis</b>  <b>help</b> / <b>h</b>  <b>invite</b>  <b>ping</b>  <b>server</b>
-        </div>
-    </div>
-    <br><br>
-    <div class="command-holder">
-        <div class="command-title">
-            Pets
-        </div>
-        <div class="command-des">
-            <b>cat</b> / <b>kitty</b> / <b>meow</b>  <b>dog</b> / <b>puppy</b>  <b>goose</b>  <b>fox</b>  <b>lizard</b>
-        </div>
-    </div>
-    <br><br>
-    <div class="command-holder">
-        <div class="command-title">
-            Search
-        </div>
-        <div class="command-des">
-            <b>anime</b>  <b>comic</b>  <b>define</b>  <b>lyrics</b>  <b>manga</b>
-        </div>
-    </div>
-    <br>
-    <h3>Another Note</h3><br>
-    <h4>`.help` , `.     help` and `.  hElP` dosen't make any difference.<br>
-        You may add as many space as you like and also can use any case (upper/lower).<br>
-        (It removes space and it's not Case Sensitive)</h4>
-    <br>
 </body>
 </html>
