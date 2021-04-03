@@ -246,80 +246,68 @@ const AllCommands = [{
     nsfw: true
 },{
     name: "Filipino",
-    description: "",
-    usage: "",
+    description: "Filipino porn",
+    usage: ".filipino",
     sfw: false,
     nsfw: true
 },{
     name: "Indian",
-    description: "",
-    usage: "",
+    description: "Indian porn",
+    usage: ".indian",
     sfw: false,
     nsfw: true
 },{
     name: "Japanese",
-    description: "",
-    usage: "",
+    description: "Japanese porn",
+    usage: ".japanese",
     sfw: false,
     nsfw: true
 },{
     name: "Korean",
-    description: "",
-    usage: "",
+    description: "Korean porn",
+    usage: ".korean",
     sfw: false,
     nsfw: true
 },{
     name: "Celebrity",
-    description: "",
-    usage: "",
+    description: "Celebrity porn",
+    usage: ".celebrity",
     sfw: false,
     nsfw: true
 },{
     name: "Erotic",
-    description: "",
-    usage: "",
+    description: "Erotic images",
+    usage: ".erotic</code> or <code>.ero",
     sfw: false,
     nsfw: true
 },{
     name: "Hentai",
-    description: "",
-    usage: "",
+    description: "<a href=\"https://www.youtube.com/watch?v=cNgyuHtBBW8\">H E N T A I</a>">,
+    usage: ".hentai",
     sfw: false,
     nsfw: true
 },{
     name: "Kuni",
-    description: "",
-    usage: "",
+    description: "K U N I",
+    usage: ".kuni",
     sfw: false,
     nsfw: true
 },{
     name: "Lewd",
-    description: "",
-    usage: "",
+    description: "Lewd things",
+    usage: ".lewd",
     sfw: false,
     nsfw: true
 },{
     name: "Chrismas",
-    description: "",
-    usage: "",
-    sfw: false,
-    nsfw: true
-},{
-    name: "xmas",
-    description: "",
-    usage: "",
+    description: "Chrismas themed porn",
+    usage: ".chrismas</code> or <code>.xmas",
     sfw: false,
     nsfw: true
 },{
     name: "Halloween",
     description: "Dressed up kinks",
-    usage: ".halloween",
-    sfw: false,
-    nsfw: true
-},{
-    name: "hal",
-    description: "Same as Halloween",
-    usage: "",
+    usage: ".halloween</code> or <code>.hal",
     sfw: false,
     nsfw: true
 }];
