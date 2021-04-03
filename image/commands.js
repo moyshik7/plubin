@@ -1,4 +1,10 @@
 const AllCommands = [{
+    name: "",
+    description: "",
+    usage: "",
+    sfw: ,
+    nsfw:
+},{
     name: "Anime",
     description: "Search any anime or get a random Anime suggestion",
     usage: ".anime <Name of Anime>",

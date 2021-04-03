@@ -58,4 +58,4 @@ const AllCommands = [{
     usage: ".tickle [The person you wanna kill laughing]",
     sfw: true,
     nsfw: false
-},];
+}];
