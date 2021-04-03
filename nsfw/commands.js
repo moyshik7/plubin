@@ -228,20 +228,20 @@ const AllCommands = [{
     nsfw: true
 },{
     name: "Black",
-    description: "",
-    usage: "",
+    description: "#BLM",
+    usage: ".black",
     sfw: false,
     nsfw: true
 },{
     name: "Blonde",
-    description: "",
-    usage: "",
+    description: "Yellow haired chicks",
+    usage: ".blonde",
     sfw: false,
     nsfw: true
 },{
     name: "Ebony",
-    description: "",
-    usage: "",
+    description: "<code>Black</code> but lighter skin",
+    usage: ".ebony",
     sfw: false,
     nsfw: true
 },{
