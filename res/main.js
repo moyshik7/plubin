@@ -11,7 +11,7 @@ for (let a = 0; a < AllCommands.length; a++) {
     if (point.sfw) {
         data += `<span class="sfw">SFW</span>`;
     }
-    data += `<br> ${point.description} <br>`;
+    data += `<br> ${point.description} <br><br><br>`;
     data += `Usage: <code>${point.usage}</code>`;
     elem.innerHTML = data;
     elem.className = "panel";
