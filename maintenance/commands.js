@@ -34,4 +34,4 @@ const AllCommands = [{
     usage: ".server",
     sfw: true,
     nsfw: false
-},];
+}];
