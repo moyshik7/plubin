@@ -126,98 +126,104 @@ const AllCommands = [{
     nsfw: true
 },{
     name: "Holo",
-    description: "",
-    usage: "",
+    description: "Don't ask me",
+    usage: ".holo",
     sfw: false,
     nsfw: true
 },{
     name: "Longhair",
-    description: "",
-    usage: "",
+    description: "Girls with long hairs",
+    usage: ".longhair</code> or <code>.long",
     sfw: false,
     nsfw: true
 },{
     name: "Shorthair",
-    description: "",
-    usage: "",
+    description: "Girls with short hairs",
+    usage: ".shorthair</code> or <code>.short",
     sfw: false,
     nsfw: true
 },{
     name: "Oil",
-    description: "",
-    usage: "",
+    description: "Oiled up and slippery",
+    usage: ".oil",
+    sfw: false,
+    nsfw: true
+},{
+    name: "Oppai",
+    description: "Boobs in anime",
+    usage: ".oppai",
     sfw: false,
     nsfw: true
 },{
     name: "Orgasm",
-    description: "",
-    usage: "",
+    description: "That momenshe starts moaning",
+    usage: ".orgasm</code> or <code>.gasm",
     sfw: false,
     nsfw: true
 },{
     name: "Pawg",
-    description: "",
-    usage: "",
+    description: "P A W G",
+    usage: ".pawg",
     sfw: false,
     nsfw: true
 },{
     name: "Redhead",
-    description: "",
-    usage: "",
+    description: "Red haired girls",
+    usage: ".redhair</code> or <code>.red",
     sfw: false,
     nsfw: true
 },{
     name: "Spank",
-    description: "",
-    usage: "",
+    description: "Spanking should turn her on right ?",
+    usage: ".spank",
     sfw: false,
     nsfw: true
 },{
     name: "Tan",
-    description: "",
-    usage: "",
+    description: "Those tanlines",
+    usage: ".tan",
     sfw: false,
     nsfw: true
 },{
     name: "Tentacle",
-    description: "",
-    usage: "",
+    description: "The real player(s) of the game",
+    usage: ".tentacle",
     sfw: false,
     nsfw: true
 },{
     name: "Tiny",
-    description: "",
-    usage: "",
+    description: "She's too short (Not loli)",
+    usage: ".tiny",
     sfw: false,
     nsfw: true
 },{
     name: "Trap",
-    description: "",
-    usage: "",
+    description: "Oh senpai, Mine is longer",
+    usage: ".trap",
     sfw: false,
     nsfw: true
 },{
     name: "Yaoi",
-    description: "",
+    description: "Boy x Boy",
     usage: "",
     sfw: false,
     nsfw: true
 },{
     name: "Yuri",
-    description: "",
+    description: "Girl x Girl",
     usage: "",
     sfw: false,
     nsfw: true
 },{
     name: "Asian",
-    description: "",
-    usage: "",
+    description: "You already know",
+    usage: ".asian",
     sfw: false,
     nsfw: true
 },{
     name: "BBC",
-    description: "",
-    usage: "",
+    description: "Big Black Chicken (Cock)",
+    usage: ".bbcs",
     sfw: false,
     nsfw: true
 },{
