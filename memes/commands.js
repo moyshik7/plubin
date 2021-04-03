@@ -1,13 +1,13 @@
 const AllCommands = [{
-    name: "Anime",
-    description: "Search any anime or get a random Anime suggestion",
-    usage: ".anime <Name of Anime>",
+    name: "Meme",
+    description: "Get a random meme",
+    usage: ".meme",
     sfw: true,
     nsfw: false
-}, {
-    name: "Manga",
-    description: "Search any manga/comic",
-    usage: ".manga <Name of Manga / Comic>",
-    sfw: false,
-    nsfw: true
+},{
+    name: "Dank",
+    description: "Get a dank meme",
+    usage: ".dank",
+    sfw: true,
+    nsfw: false
 }];
