@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap');
 * {
     box-sizing: border-box;
     -webkit-user-select: none;       
@@ -21,12 +22,11 @@ body {
     outline: none;
     transition: 0.4s;
     border-radius: 5px;
-    font-family: monospace;
+    font-family: 'Raleway', sans-serif;
     font-weight: 800;
-    font-size: 20px;
+    font-size: 2EM;
 }
 .panel {
-    padding: 0px;
     background-color: #ffd0cc;
     display: block;
     overflow: hidden;
@@ -38,9 +38,9 @@ body {
 .panel p {
     padding: 10px;
     display: none;
-    font-size: 16px;
+    font-size: 1.4EM;
     width: 100%;
-    line-height: 30px;
+    line-height: 150%;
 }
 code {
     background-color: gray;
@@ -52,36 +52,6 @@ code {
     padding-right: 7px;
     border-radius: 4px;
 }
-.footer {
-    background-color: #00cc00;
-    float: left;
-    width: 100%;
-    padding: 20px;
-    border-radius: 5px;
-}
-.footer a {
-    text-decoration: none;
-    width: 100%;
-    float: left;
-}
-.footer a div {
-    width: 100%;
-    border: 0px solid red;
-    border-radius: 5px;
-    padding: 10px;
-    font-size: 20px;
-    text-align: center;
-    display: block;
-    font-weight: 600;
-    color: white;
-    float: left;
-}
-.patreon {
-    background-color: #ffb3b3;
-}
-.ig {
-    background-color: #ffcc99;
-}
 .spc {
     width: 100%;
     float: left;
@@ -90,9 +60,6 @@ code {
 b {
     font-weight: 800;
     font-size: 20px;
-}
-.s {
-    font-size: 8px;
 }
 .nsfw {
     text-decoration: none;
@@ -127,3 +94,11 @@ b {
     padding-right: 7px;
     border-radius: 4px;
 }
+/*@media screen and (min-width: 900px) {
+    .panel{
+        width: 50%;
+    }
+    .spc{
+        display: none;
+    }
+}*/
