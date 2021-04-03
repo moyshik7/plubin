@@ -1,121 +1,127 @@
 const AllCommands = [{
     name: "Anal",
-    description: "",
-    usage: "",
+    description: "Go through the back door",
+    usage: ".anal",
     sfw: false,
     nsfw: true
 },{
     name: "Blowjob",
-    description: "",
-    usage: "",
+    description: "Use the mouth",
+    usage: ".blowjob</code> or <code>.bj",
     sfw: false,
     nsfw: true
 },{
     name: "Boob",
-    description: "",
-    usage: "",
+    description: "The lactating organ",
+    usage: ".boob",
     sfw: false,
     nsfw: true
 },{
     name: "Butt",
-    description: "",
-    usage: "",
+    description: "@$$ image",
+    usage: ".butt",
     sfw: false,
     nsfw: true
 },{
     name: "Hardcore",
-    description: "",
-    usage: "",
+    description: "Go fast go Hard",
+    usage: ".hardcore",
     sfw: false,
     nsfw: true
 },{
     name: "Milf",
-    description: "",
-    usage: "",
+    description: "Moms in old English",
+    usage: ".milf",
     sfw: false,
     nsfw: true
 },{
     name: "Mom",
-    description: "",
-    usage: "",
+    description: "Mommy",
+    usage: ".mom",
+    sfw: false,
+    nsfw: true
+},{
+    name: "Porn",
+    description: "The default",
+    usage: ".porn",
     sfw: false,
     nsfw: true
 },{
     name: "Pussy",
-    description: "",
-    usage: "",
+    description: "Wanna put in in ?",
+    usage: ".pussy",
     sfw: false,
     nsfw: true
 },{
     name: "Thick",
-    description: "",
-    usage: "",
+    description: "Peaches",
+    usage: ".thick",
     sfw: false,
     nsfw: true
 },{
     name: "Tits",
-    description: "",
-    usage: "",
+    description: "Boobs",
+    usage: ".tits",
     sfw: false,
     nsfw: true
 },{
     name: "BDSM",
-    description: "",
-    usage: "",
+    description: "Strap in",
+    usage: ".bdsm",
     sfw: false,
     nsfw: true
 },{
     name: "Neko",
-    description: "",
-    usage: "",
-    sfw: false,
+    description: "Catgirls",
+    usage: ".neko",
+    sfw: true,
     nsfw: true
 },{
     name: "Catgirl",
-    description: "",
-    usage: "",
-    sfw: false,
+    description: "You like catgirls ?",
+    usage: ".catgirl",
+    sfw: true,
     nsfw: true
 },{
     name: "Classic",
-    description: "",
-    usage: "",
+    description: "The Classic",
+    usage: ".classic",
     sfw: false,
     nsfw: true
 },{
     name: "Cumslut",
-    description: "",
-    usage: "",
+    description: "That's a lot of cum",
+    usage: ".cumslut</code> or <code>.cs",
     sfw: false,
     nsfw: true
 },{
     name: "Dickgirl",
-    description: "",
-    usage: "",
+    description: "Girls with pp",
+    usage: ".dickgirl",
     sfw: false,
     nsfw: true
 },{
     name: "Feet",
-    description: "",
-    usage: "",
+    description: "Lick it",
+    usage: ".feet",
     sfw: false,
     nsfw: true
 },{
     name: "Femdom",
-    description: "",
-    usage: "",
+    description: "IDK what this is",
+    usage: ".femdom",
     sfw: false,
     nsfw: true
 },{
     name: "Glass",
-    description: "",
-    usage: "",
+    description: "I can't see without them",
+    usage: ".glass</code> or <code>.glasses",
     sfw: false,
     nsfw: true
 },{
     name: "Heel",
-    description: "",
-    usage: "",
+    description: "Girls with heels",
+    usage: ".heel",
     sfw: false,
     nsfw: true
 },{
