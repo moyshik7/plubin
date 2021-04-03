@@ -8,12 +8,12 @@
     user-select: none;
 }
 body {
-    background-color: #6b5b95;
+    background-color: #2c2f33;
     padding: 3px;
     font-family: 'Poppins', sans-serif;
 }
 .accordion {
-    background-color: #ff6f61;
+    background-color: #6b5b95;
     color: white;
     padding: 18px;
     width: 100%;
@@ -27,7 +27,7 @@ body {
     font-size: 2EM;
 }
 .panel {
-    background-color: #ffd0cc;
+    background-color: #b9b0cf;
     display: block;
     overflow: hidden;
     border-radius: 5px;
@@ -55,7 +55,7 @@ code {
 .spc {
     width: 100%;
     float: left;
-    height: 10px;
+    height: 20px;
 }
 b {
     font-weight: 800;
@@ -93,4 +93,16 @@ b {
     padding-left: 7px;
     padding-right: 7px;
     border-radius: 4px;
+}
+@media screen and (min-width: 600px) {
+    .accordion{
+        padding: 10px;
+        font-size: 1.5EM;
+    }
+    .panel{
+        font-size: 1.2EM;
+    }
+    .panel p{
+        font-size: 1.2EM;
+    }
 }
