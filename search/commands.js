@@ -28,10 +28,4 @@ const AllCommands = [{
     usage: ".manga [Name of Manga]",
     sfw: true,
     nsfw: false
-},{
-    name: "",
-    description: "",
-    usage: "",
-    sfw: true,
-    nsfw: false
-},];
+}];
