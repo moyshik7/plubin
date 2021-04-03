@@ -282,7 +282,7 @@ const AllCommands = [{
     nsfw: true
 },{
     name: "Hentai",
-    description: "<a href=\"https://www.youtube.com/watch?v=cNgyuHtBBW8\">H E N T A I</a>">,
+    description: "<a href=\"https://www.youtube.com/watch?v=cNgyuHtBBW8\">H E N T A I</a>",
     usage: ".hentai",
     sfw: false,
     nsfw: true
