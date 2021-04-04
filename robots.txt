@@ -1,0 +1,11 @@
+User-agent: *
+Allow: /
+Allow: /plubin/
+Disallow: /plubin/res/
+Disallow: /res/
+
+User-agent: kgb
+Disallow: /
+
+User-agent: cia
+Disallow: /
