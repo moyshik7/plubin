@@ -1,57 +1,40 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<urlset
-
-    xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-    xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
-    http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
-
+<urlset xmlns="http://www.google.com/schemas/sitemap/0.84" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
     <url>
-        <loc>https://moyshik7.github.io/plubin/</loc>
-        <lastmod>2021-04-04T08:23:56+00:00</lastmod>
-        <priority>1.00</priority>
+        <loc>https://moyshik7.github.io/plubin</loc>
+        <changefreq>weekly</changefreq>
     </url>
     <url>
-        <loc>https://moyshik7.github.io/plubin/nsfw/</loc>
-        <lastmod>2021-04-04T08:23:56+00:00</lastmod>
-        <priority>0.80</priority>
+        <loc>https://moyshik7.github.io/./nsfw</loc>
+        <changefreq>weekly</changefreq>
     </url>
     <url>
-        <loc>https://moyshik7.github.io/plubin/anime/</loc>
-        <lastmod>2021-04-04T08:23:56+00:00</lastmod>
-        <priority>0.80</priority>
+        <loc>https://moyshik7.github.io/./anime</loc>
+        <changefreq>weekly</changefreq>
     </url>
     <url>
-        <loc>https://moyshik7.github.io/plubin/memes/</loc>
-        <lastmod>2021-04-04T08:23:56+00:00</lastmod>
-        <priority>0.80</priority>
+        <loc>https://moyshik7.github.io/./memes</loc>
+        <changefreq>weekly</changefreq>
     </url>
     <url>
-        <loc>https://moyshik7.github.io/plubin/emotions/</loc>
-        <lastmod>2021-04-04T08:23:56+00:00</lastmod>
-        <priority>0.80</priority>
+        <loc>https://moyshik7.github.io/./emotions</loc>
+        <changefreq>weekly</changefreq>
     </url>
     <url>
-        <loc>https://moyshik7.github.io/plubin/search/</loc>
-        <lastmod>2021-04-04T08:23:56+00:00</lastmod>
-        <priority>0.80</priority>
+        <loc>https://moyshik7.github.io/./search</loc>
+        <changefreq>weekly</changefreq>
     </url>
     <url>
-        <loc>https://moyshik7.github.io/plubin/pets/</loc>
-        <lastmod>2021-04-04T08:23:56+00:00</lastmod>
-        <priority>0.80</priority>
+        <loc>https://moyshik7.github.io/./pets</loc>
+        <changefreq>weekly</changefreq>
     </url>
     <url>
-        <loc>https://moyshik7.github.io/plubin/moderation/</loc>
-        <lastmod>2021-04-04T08:23:56+00:00</lastmod>
-        <priority>0.80</priority>
+        <loc>https://moyshik7.github.io/./moderation</loc>
+        <changefreq>weekly</changefreq>
     </url>
     <url>
-        <loc>https://moyshik7.github.io/plubin/maintenance/</loc>
-        <lastmod>2021-04-04T08:23:56+00:00</lastmod>
-        <priority>0.80</priority>
+        <loc>https://moyshik7.github.io/maintenance</loc>
+        <changefreq>weekly</changefreq>
     </url>
-
-
 </urlset>
