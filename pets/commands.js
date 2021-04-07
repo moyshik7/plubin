@@ -11,7 +11,7 @@ const AllCommands = [{
     sfw: true,
     nsfw: false
 },{
-    name: "Googe",
+    name: "Goose",
     description: "Get a goose image",
     usage: ".goose",
     sfw: true,
