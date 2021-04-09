@@ -1,20 +1,24 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <meta property="og:title" content="Plubin Discord Bot" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://moyshik7.github.io/plubin" />
+    <meta property="og:image" content="https://www.dropbox.com/s/d05zua6whcl4cmg/fce49ad24785206d74bee4d34b2d2e00_smol.webp?dl=1" />
+    <meta property="og:description" content="Plubin Dicord bot. A discord bot with Anime, Manga, Comics, Memes, Music, Lyrics, Moderation, Images and much more" />
+    <meta name="theme-color" content="#FF6F61" />
+    <meta name="twitter:card" content="https://www.dropbox.com/s/d05zua6whcl4cmg/fce49ad24785206d74bee4d34b2d2e00_smol.webp?dl=1">
+
     <meta name="google-site-verification" content="GN8fDIxh_FoluiZyyLI57UN0_MKW4YP6-yceyvG_w1s" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Plubin Dicord bot. A discord bot with Anime, Manga, Comics, Memes, Music, Lyrics, Moderation, Images and much more">
     <meta name="keywords" content="Discord Anime Bot, Discord nsfw bot, Discord Porn bit, discord meme bot, Discord Moderation Bot, Discord all in all bot, Anime search, Music search, Discord Music bot">
     <meta name="author" content="Plubin">
     <title>Plubin Discord Bot</title>
-    <link rel="shortcut icon" type="image/png" href="./favicon.png"/>
+    <link rel="shortcut icon" type="image/png" href="./favicon.png" />
     <link rel="icon" type="image/png" href="./favicon.png" />
-    <meta property="og:title" content="Plubin Discord Bot">
-    <meta property="og:description" content="Plubin Dicord bot. A discord bot with Anime, Manga, Comics, Memes, Music, Lyrics, Moderation, Images and much more">
-    <meta property="og:image" content="https://www.dropbox.com/s/d05zua6whcl4cmg/fce49ad24785206d74bee4d34b2d2e00_smol.webp?dl=1">
-    <meta property="og:url" content="https://moyshik7.github.io/plubin">
     <style>
-        @import url('https://fonts.googleapis.com/css2?family=Lexend:wght@500&family=Ubuntu&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@500&family=Ubuntu&display=swap');
         .main {
             background-color: #23272a;
             width: 100%;
@@ -67,22 +71,22 @@
         .background_coral_red_light {
             background-color: #ffa299;
         }
-        .header{
-            width:100%;
+        .header {
+            width: 100%;
         }
-        .header_desktop{
+        .header_desktop {
             display: block;
         }
-        .header_desktop_table{
+        .header_desktop_table {
             width: 100%;
             padding: 10px;
             padding-top: 20px;
             padding-bottom: 50px;
         }
-        .header_desktop_table_cover{
+        .header_desktop_table_cover {
             width: 40%;
         }
-        .header_desktop_table_cover_image{
+        .header_desktop_table_cover_image {
             display: block;
             margin-left: auto;
             margin-right: auto;
@@ -90,23 +94,23 @@
             max-width: 400px;
             border-radius: 10px;
         }
-        .header_desktop_table_name{
+        .header_desktop_table_name {
             font-size: 3EM;
             font-family: 'Lexend', sans-serif;
             padding: 20px;
             padding-left: 0px;
         }
-        .header_desktop_table_description{
+        .header_desktop_table_description {
             color: white;
             font-size: 1.2EM;
             font-family: 'Ubuntu', sans-serif;
             padding: 5px;
             padding-left: 0px;
         }
-        .header_desktop_table_buttons{
+        .header_desktop_table_buttons {
             width: 100%;
         }
-        .header_desktop_table_buttons button{
+        .header_desktop_table_buttons button {
             width: 45%;
             border: 2px solid #668cff;
             background-color: transparent;
@@ -129,28 +133,28 @@
             display: block;
         }
         */
-        .header_mobile{
+        .header_mobile {
             display: none;
             width: 100%;
         }
-        .header_mobile_image{
+        .header_mobile_image {
             width: 100%;
             padding-top: 40px;
         }
-        .header_mobile_image img{
+        .header_mobile_image img {
             width: 80%;
             display: block;
             margin-left: auto;
             margin-right: auto;
             border-radius: 15px;
         }
-        .header_mobile_name{
+        .header_mobile_name {
             font-size: 2.5EM;
             font-family: 'Lexend', sans-serif;
             padding: 20px;
             text-align: center;
         }
-        .header_mobile_description{
+        .header_mobile_description {
             color: white;
             font-size: 1EM;
             font-family: 'Ubuntu', sans-serif;
@@ -159,11 +163,11 @@
             padding-top: 10px;
             line-height: 200%;
         }
-        .header_mobile_buttons{
+        .header_mobile_buttons {
             padding: 10px;
             padding-bottom: 50px;
         }
-        .header_mobile_buttons button{
+        .header_mobile_buttons button {
             width: 100%;
             border: 2px solid #668cff;
             background-color: transparent;
@@ -175,23 +179,23 @@
             padding-bottom: 10px;
             border-radius: 5px;
         }
-        .header_mobile_buttons button:hover{
+        .header_mobile_buttons button:hover {
             background-color: #668cff;
             color: white;
         }
-        @media only screen and (max-width: 900px) {
-            .header_desktop{
+@media only screen and (max-width: 900px) {
+            .header_desktop {
                 display: none;
             }
-            .header_mobile{
+            .header_mobile {
                 display: block;
             }
         }
-        @media only screen and (min-width: 901px) {
-            .header_desktop{
+@media only screen and (min-width: 901px) {
+            .header_desktop {
                 display: block;
             }
-            .header_mobile{
+            .header_mobile {
                 display: none;
             }
         }
@@ -212,7 +216,9 @@
                     </tr>
                     <tr>
                         <td class="header_desktop_table_description">
-                            <p>A multi purpose bot with anime manga (comic) waifus emotions moderations lyrics dictionary memes pets and image generation feature</p>
+                            <p>
+                                A multi purpose bot with anime manga (comic) waifus emotions moderations lyrics dictionary memes pets and image generation feature
+                            </p>
                         </td>
                     </tr>
                     <tr>
@@ -224,23 +230,25 @@
                 </table>
             </div>
             <div class="mobile">
-            <div class="header_mobile">
-                <div class="header_mobile_image">
-                    <img src="https://www.dropbox.com/s/d05zua6whcl4cmg/fce49ad24785206d74bee4d34b2d2e00_smol.webp?dl=1" alt="Plubin's avatar">
-                </div>
-                <div class="header_mobile_name">
-                    Plubin
-                </div>
-                <div class="header_mobile_description">
-                    <p>A multi purpose bot with anime manga (comic) waifus emotions moderations lyrics dictionary memes pets and image generation feature</p>
-                </div>
-                <div class="header_mobile_buttons">
-                    <button onclick="window.location.href='https://discord.com/api/oauth2/authorize?client_id=748160981766635540&permissions=3425761345&scope=bot%20applications.commands';">Invite Me</button>
+                <div class="header_mobile">
+                    <div class="header_mobile_image">
+                        <img src="https://www.dropbox.com/s/d05zua6whcl4cmg/fce49ad24785206d74bee4d34b2d2e00_smol.webp?dl=1" alt="Plubin's avatar">
+                    </div>
+                    <div class="header_mobile_name">
+                        Plubin
+                    </div>
+                    <div class="header_mobile_description">
+                        <p>
+                            A multi purpose bot with anime manga (comic) waifus emotions moderations lyrics dictionary memes pets and image generation feature
+                        </p>
+                    </div>
+                    <div class="header_mobile_buttons">
+                        <button onclick="window.location.href='https://discord.com/api/oauth2/authorize?client_id=748160981766635540&permissions=3425761345&scope=bot%20applications.commands';">Invite Me</button>
                         <br>
                         <br>
-                    <button onclick="window.location.href='https://discord.gg/UDZqY4xJ6J';">Support Server</button>
+                        <button onclick="window.location.href='https://discord.gg/UDZqY4xJ6J';">Support Server</button>
+                    </div>
                 </div>
-            </div>
             </div>
         </div>
         <a href="./nsfw" class="description">
