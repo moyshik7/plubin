@@ -2,39 +2,39 @@
 
 <urlset xmlns="http://www.google.com/schemas/sitemap/0.84" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
     <url>
-        <loc>https://moyshik7.github.io/plubin</loc>
+        <loc>https://plubin.xyz/</loc>
         <changefreq>weekly</changefreq>
     </url>
     <url>
-        <loc>https://moyshik7.github.io/plubin/nsfw</loc>
+        <loc>https://plubin.xyz/nsfw</loc>
         <changefreq>weekly</changefreq>
     </url>
     <url>
-        <loc>https://moyshik7.github.io/plubin/anime</loc>
+        <loc>https://plubin.xyz/anime</loc>
         <changefreq>weekly</changefreq>
     </url>
     <url>
-        <loc>https://moyshik7.github.io/plubin/memes</loc>
+        <loc>https://plubin.xyz/memes</loc>
         <changefreq>weekly</changefreq>
     </url>
     <url>
-        <loc>https://moyshik7.github.io/plubin/emotions</loc>
+        <loc>https://plubin.xyz/emotions</loc>
         <changefreq>weekly</changefreq>
     </url>
     <url>
-        <loc>https://moyshik7.github.io/plubin/search</loc>
+        <loc>https://plubin.xyz/search</loc>
         <changefreq>weekly</changefreq>
     </url>
     <url>
-        <loc>https://moyshik7.github.io/plubin/pets</loc>
+        <loc>https://plubin.xyz/pets</loc>
         <changefreq>weekly</changefreq>
     </url>
     <url>
-        <loc>https://moyshik7.github.io/plubin/moderation</loc>
+        <loc>https://plubin.xyz/moderation</loc>
         <changefreq>weekly</changefreq>
     </url>
     <url>
-        <loc>https://moyshik7.github.io/plubin/maintenance</loc>
+        <loc>https://plubin.xyz/maintenance</loc>
         <changefreq>weekly</changefreq>
     </url>
 </urlset>
