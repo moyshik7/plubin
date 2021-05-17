@@ -3,6 +3,7 @@ Allow: /
 Allow: /plubin/
 Disallow: /plubin/res/
 Disallow: /res/
+Disallow: /dummy/
 
 User-agent: kgb
 Disallow: /
